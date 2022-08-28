@@ -448,10 +448,12 @@ font-family: 'Open Sans', sans-serif;
 .all-info ul li h3{
     font-weight: 500;
     font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 .all-info ul li p{
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -703,7 +705,7 @@ font-size: 12px;
     .first-content {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 450px 550px;
+        grid-template-rows: 550px 650px;
     }
     .left-content {
         background-color: #6257ff;
@@ -713,17 +715,17 @@ font-size: 12px;
     
     .left-content p{
         padding-right: 20px;
-        font-size: 18px;
+        font-size: 28px;
     }
     .left-content .all h1{
-        font-size: 58px;
+        font-size: 80px;
     }
     .left-content .all h4{
-        font-size: 20px;
+        font-size: 34px;
     }
     .left-content .btn {
         padding: 15px 50px;
-        font-size: 25px;
+        font-size: 35px;
     }
     
     .right-content .phone{
@@ -750,17 +752,17 @@ font-size: 12px;
         color: #fff;
     }
     .bg-dark h4{
-        font-size: 16px;
+        font-size: 25px;
         text-align: center;
     }
     .bg-dark h1 {
-        font-size: 40px;
+        font-size: 60px;
         margin-bottom: 20px;
         text-align: center;
     }
     .bg-dark p {
         margin-top: 10px;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 20px;
         font-family: 'Open Sans', sans-serif;
     }
@@ -771,7 +773,7 @@ font-size: 12px;
         display: block;
         margin: -100px 0 0 5%;
         width: 90%;
-        height: 380px;
+        height: 420px;
         border: 1px solid #404040
     }
 
@@ -780,10 +782,10 @@ font-size: 12px;
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 400px 600px;
+        grid-template-rows: 400px 700px;
         padding-bottom: 10px;
         position: relative;
-        margin-top: 150px;
+        margin-top: 200px;
     }
     .left-con {
         padding-left: 70px;
@@ -836,6 +838,7 @@ font-size: 12px;
     .first-port-section {
         display: grid;
         grid-template-columns: repeat(2,50%);
+        gap: 12px;
         margin-bottom: 100px;
     }
     
@@ -875,6 +878,14 @@ font-size: 12px;
     .form-section{
         padding: 2% 0 0 10%;
     }
+    .form-section form input{
+        width: 70%;
+    }
+    .form-section form input::placeholder{
+        font-size: 30px;
+        color: #a5a4a4;
+        font-family: 'Open Sans', sans-serif;
+    }
     .address {
         background-color: #6357ff;
         display: flex;
@@ -883,15 +894,15 @@ font-size: 12px;
         padding: 30px 10%;
     }
     .all-info ul li i {
-        font-size: 20px;
+        font-size: 35px;
     }
     .all-info ul li h3 {
         font-weight: 500;
-        font-size: 15px;
+        font-size: 25px;
     }
     .all-info ul li p {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 18px;
     }
     .fifth-section img {
         position: absolute;
@@ -900,6 +911,11 @@ font-size: 12px;
         width: 40%;
         height: auto;
         border: 1px solid #666565;
+    }
+    
+    .container-start{
+        width: 100%;
+        margin: 0;
     }
 
 }
