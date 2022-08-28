@@ -373,7 +373,7 @@ font-family: 'Open Sans', sans-serif;
     padding: 30px 20px;
     border: none;
     border-bottom: 4px solid #d4d4d4;
-    font-size: 15px;
+    font-size: 25px;
     color: #4e4e4e;
     font-family: 'Open Sans', sans-serif;
 }
@@ -473,7 +473,7 @@ font-family: 'Open Sans', sans-serif;
     .first-content {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 550px 650px;
+        grid-template-rows: 570px 650px;
     }
     .left-content {
         background-color: #6257ff;
@@ -492,8 +492,8 @@ font-family: 'Open Sans', sans-serif;
         font-size: 17px;
     }
     .left-content .btn {
-        padding: 10px 15px;
-        font-size: 25px;
+        padding: 15px 20px;
+        font-size: 40px;
     }
      .right-content .phone{
         display: block;
@@ -619,9 +619,9 @@ font-size: 12px;
         margin-bottom: 100px;
     }
     .first-port-section img {
-        width: 95%;
+        width: 100%;
         height: 97%;
-        margin: 10px;
+        margin: 0;
         border: 1px solid #666565;
     }
     .second-port-section {
@@ -630,7 +630,7 @@ font-size: 12px;
         margin-bottom: 100px;
     }
     .second-port-section img {
-        width: 95%;
+        width: 99%;
         height: 90%;
         margin: 0 10px;
         border: 1px solid #666565;
@@ -640,6 +640,7 @@ font-size: 12px;
     }
     .portfilios .works{
         margin: -12px 10px;
+        width: 99%;
     }
     .fifth-section {
             display: grid;
@@ -650,8 +651,12 @@ font-size: 12px;
     .form-section{
         padding: 2% 0 0 10%;
     }
-    .form-section form input{
-        font-size: 40px;
+    .form-section form input::placeholder{
+        font-size: 30px;
+
+    }.form-section form textarea::placeholder{
+        font-size: 30px;
+
     }
     .address {
         background-color: #6357ff;
@@ -673,8 +678,8 @@ font-size: 12px;
     }
     .fifth-section img {
         position: absolute;
-        top: 70%;
-        left: 47%;
+        top: 77%;
+        left: 53%;
         width: 40%;
         height: auto;
         border: 1px solid #666565;
