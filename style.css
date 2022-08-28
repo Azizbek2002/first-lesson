@@ -582,17 +582,18 @@ font-family: 'Open Sans', sans-serif;
 .all-services{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 270px 270px;
+    grid-template-rows: 240px 270px;
     margin-left: 30px;
     margin-top: 80px;
     padding-right: 0;
 }
 .service h2{
-font-size: 14px;
+font-size: 12px;
 
 }
 .service p{
-    font-size: 9px;
+    font-size: 7px;  
+    padding-right: 33px;
 }
 .service img {
     width: 45px;
