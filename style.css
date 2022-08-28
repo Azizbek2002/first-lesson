@@ -473,7 +473,7 @@ font-family: 'Open Sans', sans-serif;
     .first-content {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 550px 550px;
+        grid-template-rows: 550px 650px;
     }
     .left-content {
         background-color: #6257ff;
@@ -520,16 +520,16 @@ font-family: 'Open Sans', sans-serif;
         color: #fff;
     }
     .bg-dark h4{
-        font-size: 30px;
+        font-size: 35px;
     }
     .bg-dark h1 {
-        font-size: 65px;
+        font-size: 75px;
         margin-bottom: 20px;
     }
     .bg-dark p {
         margin-top: 10px;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 25px;
+        line-height: 25px;
         font-family: 'Open Sans', sans-serif;
     }
     .bg-white .designer-desktop{
@@ -539,7 +539,7 @@ font-family: 'Open Sans', sans-serif;
         display: block;
         margin: 0 0 0 0;
         width: 100%;
-        height: 90%;
+        height: 100%;
         border: 1px solid #404040;
     }
 
@@ -552,10 +552,10 @@ font-family: 'Open Sans', sans-serif;
         width: 100%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 700px 770px;
+        grid-template-rows: 700px 850px;
         padding-bottom: 10px;
         position: relative;
-        margin-top: 400px;
+        margin-top: 450px;
     }
     .left-con {
         padding-left: 40px;
@@ -582,7 +582,7 @@ font-family: 'Open Sans', sans-serif;
 .all-services{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 270px 270px;
     margin-left: 30px;
     margin-top: 80px;
     padding-right: 0;
@@ -593,6 +593,13 @@ font-size: 14px;
 }
 .service p{
     font-size: 9px;
+}
+.service img {
+    width: 45px;
+    height: 45px;
+    background-color: #6257ff;
+    padding: 5px;
+    border-radius: 1px;
 }
 .right-con img {
     margin: 12% 0 0 17%;
@@ -612,7 +619,7 @@ font-size: 14px;
     }
     .first-port-section img {
         width: 95%;
-        height: 95%;
+        height: 97%;
         margin: 10px;
         border: 1px solid #666565;
     }
@@ -631,16 +638,19 @@ font-size: 14px;
         margin-top: 150px;
     }
     .portfilios .works{
-        margin: -9px 10px;
+        margin: -12px 10px;
     }
     .fifth-section {
             display: grid;
             grid-template-columns: 100%;
-            grid-template-rows: 66% 44%;
+            grid-template-rows: 66% 50%;
             position: relative;
     }
     .form-section{
         padding: 2% 0 0 10%;
+    }
+    .form-section form input{
+        font-size: 40px;
     }
     .address {
         background-color: #6357ff;
@@ -650,15 +660,15 @@ font-size: 14px;
         padding: 30px 10%;
     }
     .all-info ul li i {
-        font-size: 20px;
+        font-size: 35px;
     }
     .all-info ul li h3 {
         font-weight: 500;
-        font-size: 15px;
+        font-size: 24px;
     }
     .all-info ul li p {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 18px;
     }
     .fifth-section img {
         position: absolute;
